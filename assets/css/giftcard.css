@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.accordion-title{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-right: 1px solid rgba(0,0,0,.1);
+  
+}
+.accordion-answer{
+    max-height: 0;
+    overflow: hidden; 
+    transition: 500ms ease-in-out max-height;
+    
+} 
+
+.DropdownChev {
+    cursor: pointer;
+    display: block;
+    padding-left: 30px;
+}
+.chevron{
+    position: absolute;
+    right: 50px;
+    left: auto;
+    transition: transform 0.2s ease-in-out;
+    color: gray;
+}
+
+/* The .active-header class links with the chevron class using the transform and transition property */
+.active-header .chevron {
+    transform: rotate(90deg);
+}
+/* End activation of the .active-header class  */
+
+.container-wrapper-white {
+    background-color: white;
+      
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.col-10 {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    justify-content: space-around;
+}
+.col {
+    display: flex;
+    padding-top: 15px;
+    
+    /*justify-content: space-around; */
+}
+ .container-wrapper-1-orange {
+    background-color:#006a4d;
+    color: white; 
+}
+.container-wrapper-2-orange {
+    background-color: rgb(212, 212, 212);
+     
+    
+}
+.fontSize {
+    
+    padding-top: 5px;
+    align-items: center;
+    
+}
+.col-12, .col-sm-6, .col-md-4, .col-lg-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ion-icon {
+   
+    /* color: #28a745; */
+    align-items: center;
+    padding-top: 5px;
+}
+
+.sell-now {
+    padding-top: 10px;
+}
+.dropdownBorder {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+}
